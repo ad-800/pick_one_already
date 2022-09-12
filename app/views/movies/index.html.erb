@@ -6,9 +6,9 @@
         <div id="score-<%= movie.id %>" class="score">
           <% unless movie.rtscore.zero? %>
             <% if movie.rtscore > 60 %>
-              <p class="rt-score"><%= image_tag "tomato.png", width: 40, height: 40, crop: :fill %><%= movie.rtscore %></p>
+              <p class="rt-score"><%= image_tag "tomato.png", width: 37, height: 37, crop: :fill, style: "padding-right: 4px;" %><%= movie.rtscore %></p>
             <% else %>
-              <p class="rt-score"><%= image_tag "tomatosplat.png", width: 40, height: 40, crop: :fill %><%= movie.rtscore %></p>
+              <p class="rt-score"><%= image_tag "tomatosplat.png", width: 37, height: 37, crop: :fill, style: "padding-right: 4px;" %><%= movie.rtscore %></p>
             <% end %>
           <% end %>
           <% unless movie.mcscore.zero? %>
@@ -55,9 +55,9 @@
       <div id="score-<%= movie.id %>" class="score">
         <% unless movie.rtscore.zero? %>
           <% if movie.rtscore > 60 %>
-            <p class="rt-score"><%= image_tag "tomato.png", width: 40, height: 40, crop: :fill %><%= movie.rtscore %></p>
+            <p class="rt-score"><%= image_tag "tomato.png", width: 37, height: 37, crop: :fill, style: "padding-right: 4px;" %><%= movie.rtscore %></p>
           <% else %>
-            <p class="rt-score"><%= image_tag "tomatosplat.png", width: 40, height: 40, crop: :fill %><%= movie.rtscore %></p>
+            <p class="rt-score"><%= image_tag "tomatosplat.png", width: 37, height: 37, crop: :fill, style: "padding-right: 4px;" %><%= movie.rtscore %></p>
           <% end %>
         <% end %>
         <% unless movie.mcscore.zero? %>

@@ -9,7 +9,7 @@ require_relative 'scrape'
 
 # PARAMETERS
 country = 'pt'
-page = 18
+page = 2
 service = 'netflix' # prime, disney, hbo, hulu, peacock, paramount, starz, showtime, apple
 type = 'movie' # or series
 genre = ''
