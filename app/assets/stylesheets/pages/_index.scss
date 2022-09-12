@@ -1,2 +1,20 @@
 // Import page-specific CSS files here.
-@import "home";
+
+.modal-content > p {
+  margin: 5px 25px;
+}
+
+.modal-content > h5 {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.flex-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.flex-links > a {
+  padding: 10px;
+}

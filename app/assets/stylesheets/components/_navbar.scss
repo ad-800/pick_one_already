@@ -1,12 +1,18 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.first-nav {
+  margin-right: 15px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar {
+  padding: 1rem 2rem;
 }
+
+.navbar-brand > i {
+  color: $red;
+  padding-right: 5px;
+}
+
