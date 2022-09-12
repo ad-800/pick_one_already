@@ -6,10 +6,10 @@ require_relative 'scrape'
 
 # puts "cleaning database"
 # Movie.destroy_all
-
-# PARAMETERS
-country = 'pt'
 page = 2
+# PARAMETERS
+while page < 5
+country = 'us'
 service = 'netflix' # prime, disney, hbo, hulu, peacock, paramount, starz, showtime, apple
 type = 'movie' # or series
 genre = ''
@@ -52,3 +52,6 @@ db['results'].each do |result|
 end
 
 puts 'End of seeding batch'
+page += 1
+
+end
