@@ -5,3 +5,4 @@
 
 Personal project for movie lovers unsure of the film to stream next, this one-model rails website scrapes popular ratings and displays them simply for fast picking.
 
+![Tomato](app/assets/images/tomato.png)
