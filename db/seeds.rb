@@ -6,9 +6,9 @@ require_relative 'scrape'
 
 # puts "cleaning database"
 # Movie.destroy_all
-page = 2
+page = 5
 # PARAMETERS
-while page < 5
+while page < 12
 country = 'us'
 service = 'netflix' # prime, disney, hbo, hulu, peacock, paramount, starz, showtime, apple
 type = 'movie' # or series
