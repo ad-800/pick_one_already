@@ -8,7 +8,7 @@ require_relative 'scrape'
 # Movie.destroy_all
 page = 12
 # PARAMETERS
-while page < 20
+while page < 20 # 18 bad
 country = 'us'
 service = 'netflix' # prime, disney, hbo, hulu, peacock, paramount, starz, showtime, apple
 type = 'movie' # or series

@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <% @movies.each do |movie| %>
-      <div class="col-2 column">
+      <div class="col-2 column list-width">
         <img id='<%= movie.id %>' data-bs-toggle="modal" data-bs-target="#modal-<%= movie.id %>" src="https://image.tmdb.org/t/p/w342<%= movie.poster_url %>" alt="movie poster for <%= movie.title %>">
         <div id="score-<%= movie.id %>" class="score">
           <% unless movie.rtscore.zero? %>
